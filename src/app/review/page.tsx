@@ -197,10 +197,10 @@ export default function ReviewPage() {
     useSearchParams();
 
   const id =
-    searchParams.get("id");
+    searchParams.get("id") ?? "";
 
   const file =
-    searchParams.get("file");
+    searchParams.get("file") ?? "";
 
   const [status, setStatus] =
     useState<
@@ -221,12 +221,6 @@ export default function ReviewPage() {
 
   useEffect(() => {
     if (!id) {
-      setError(
-        "ID da transcrição não informado."
-      );
-
-      setStatus("error");
-
       return;
     }
 
@@ -234,8 +228,6 @@ export default function ReviewPage() {
 
     async function carregar() {
       try {
-        setStatus("loading");
-        setError("");
 
         console.log(
           "================================"
@@ -278,7 +270,15 @@ export default function ReviewPage() {
         const responseText =
           await response.text();
 
-        let data: any = null;
+        let data: {
+  id?: string;
+  file?: string;
+  tipo?: string;
+  status?: string;
+  value?: unknown;
+  dados?: unknown;
+  error?: string;
+} | null = null;
 
         if (
           responseText.trim()
@@ -337,12 +337,10 @@ export default function ReviewPage() {
           data?.dados;
 
         if (
-          !dados ||
-          typeof dados !==
-            "object"
+          !isDynamicDocument(dados)
         ) {
           throw new Error(
-            "A transcrição foi encontrada, mas não contém dados."
+            "A transcrição foi encontrada, mas não contém dados válidos no formato esperado."
           );
         }
 
@@ -354,8 +352,7 @@ export default function ReviewPage() {
 
             file:
               data?.file ??
-              file ??
-              "",
+              file,
 
             tipo:
               data?.tipo ??
@@ -399,6 +396,54 @@ export default function ReviewPage() {
       active = false;
     };
   }, [id, file]);
+
+  /* =======================================================
+     ID AUSENTE
+     ======================================================= */
+
+  if (!id) {
+    return (
+      <Box
+        sx={{
+          minHeight: "100vh",
+          backgroundColor: "#f5f7fa",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "1.5rem",
+        }}
+      >
+        <Box
+          sx={{
+            width: "100%",
+            maxWidth: "650px",
+          }}
+        >
+          <Alert
+            severity="error"
+            sx={{
+              width: "100%",
+            }}
+          >
+            ID da transcrição não informado.
+          </Alert>
+
+          <Button
+            variant="outlined"
+            onClick={() => {
+              window.location.href = "/";
+            }}
+            sx={{
+              marginTop: "1rem",
+              textTransform: "none",
+            }}
+          >
+            Voltar
+          </Button>
+        </Box>
+      </Box>
+    );
+  }
 
   /* =======================================================
      LOADING

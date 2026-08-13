@@ -58,8 +58,18 @@ export async function GET(
         transcription.dados
       );
 
+    /*
+     * Converte o Buffer para Uint8Array
+     * para ser compatível com BodyInit
+     * no ambiente de produção.
+     */
+    const excelBody =
+      new Uint8Array(
+        excelBuffer
+      );
+
     return new Response(
-      excelBuffer,
+      excelBody,
       {
         status: 200,
 
@@ -72,7 +82,7 @@ export async function GET(
 
           "Content-Length":
             String(
-              excelBuffer.length
+              excelBody.byteLength
             ),
         },
       }
