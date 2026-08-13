@@ -17,6 +17,7 @@
     "@mui/material": "^9.3.1",
     "@mui/x-data-grid": "^9.11.0",
     "@prisma/client": "^7.9.1",
+    "@vercel/blob": "^2.8.0",
     "axios": "^1.19.0",
     "dayjs": "^1.11.21",
     "exceljs": "^4.4.0",
