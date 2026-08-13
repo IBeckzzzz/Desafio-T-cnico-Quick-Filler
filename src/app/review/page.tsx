@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 import {
   Alert,
@@ -193,6 +193,35 @@ function isTimesheetType(
    ========================================================= */
 
 export default function ReviewPage() {
+  return (
+    <Suspense
+      fallback={
+        <Box
+          sx={{
+            minHeight: "100vh",
+            backgroundColor: "#f5f7fa",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <CircularProgress
+            size={32}
+            sx={{
+              color: "#173772",
+            }}
+          />
+        </Box>
+      }
+    >
+      <ReviewPageContent />
+    </Suspense>
+  );
+}
+
+function ReviewPageContent() {
+  const router = useRouter();
+
   const searchParams =
     useSearchParams();
 
@@ -431,7 +460,7 @@ export default function ReviewPage() {
           <Button
             variant="outlined"
             onClick={() => {
-              window.location.href = "/";
+              router.push("/");
             }}
             sx={{
               marginTop: "1rem",
@@ -542,8 +571,7 @@ export default function ReviewPage() {
           <Button
             variant="outlined"
             onClick={() => {
-              window.location.href =
-                "/";
+              router.push("/");
             }}
             sx={{
               marginTop:
