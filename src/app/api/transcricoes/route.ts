@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
+import { put } from "@vercel/blob";
 import { writeFile } from "fs/promises";
 import path from "path";
-import fs from "fs";
+import os from "os";
 
 import { saveTranscription } from "@/lib/transcriptions";
 import { processDocument } from "@/services/ai/processDocument";
@@ -35,6 +36,8 @@ function normalizeTipo(tipo: string) {
 export async function POST(
   request: Request
 ) {
+  let tempFilePath: string | null = null;
+
   try {
     const formData =
       await request.formData();
@@ -45,6 +48,10 @@ export async function POST(
     const tipoOriginal = String(
       formData.get("tipo") || ""
     );
+
+    /* =====================================================
+       VALIDAR ARQUIVO
+       ===================================================== */
 
     if (!(file instanceof File)) {
       return NextResponse.json(
@@ -78,24 +85,9 @@ export async function POST(
         tipoOriginal
       );
 
-    const uploadDir =
-      path.join(
-        process.cwd(),
-        "uploads"
-      );
-
-    if (
-      !fs.existsSync(
-        uploadDir
-      )
-    ) {
-      fs.mkdirSync(
-        uploadDir,
-        {
-          recursive: true,
-        }
-      );
-    }
+    /* =====================================================
+       NOME DO ARQUIVO
+       ===================================================== */
 
     const fileName =
       file.name.replace(
@@ -103,66 +95,181 @@ export async function POST(
         "_"
       );
 
-    const filePath =
-      path.join(
-        uploadDir,
-        fileName
+    const id =
+      crypto.randomUUID();
+
+    /*
+     * Cada PDF recebe um caminho único no Blob.
+     */
+    const blobPath =
+      `uploads/${id}-${fileName}`;
+
+    /* =====================================================
+       PDF → VERCEL BLOB
+       ===================================================== */
+
+    console.log(
+      "================================"
+    );
+
+    console.log(
+      "ENVIANDO PDF PARA VERCEL BLOB"
+    );
+
+    console.log(
+      `Arquivo: ${fileName}`
+    );
+
+    console.log(
+      `Tipo original: ${tipoOriginal}`
+    );
+
+    console.log(
+      `Tipo normalizado: ${tipo}`
+    );
+
+    console.log(
+      `Blob path: ${blobPath}`
+    );
+
+    console.log(
+      "================================"
+    );
+
+    const blob =
+      await put(
+        blobPath,
+        file,
+        {
+          access: "private",
+          allowOverwrite: false,
+        }
       );
+
+    console.log(
+      "PDF salvo no Vercel Blob:"
+    );
+
+    console.log(
+      blob.pathname
+    );
+
+    /* =====================================================
+       CRIAR ARQUIVO TEMPORÁRIO
+       ===================================================== */
+
+    /*
+     * A Gemini recebe o PDF como bytes/base64 dentro
+     * do processDocument, mas a função atual do projeto
+     * trabalha com filePath.
+     *
+     * /tmp é gravável durante a execução da Function.
+     */
 
     const bytes =
       await file.arrayBuffer();
 
+    tempFilePath =
+      path.join(
+        os.tmpdir(),
+        `${id}-${fileName}`
+      );
+
     await writeFile(
-      filePath,
+      tempFilePath,
       Buffer.from(bytes)
     );
 
     console.log(
-      "================================"
+      "PDF temporário criado:"
     );
+
     console.log(
-      "PDF RECEBIDO"
+      tempFilePath
     );
+
+    /* =====================================================
+       GEMINI
+       ===================================================== */
+
     console.log(
-      `Arquivo: ${fileName}`
-    );
-    console.log(
-      `Tipo original: ${tipoOriginal}`
-    );
-    console.log(
-      `Tipo normalizado: ${tipo}`
-    );
-    console.log(
-      "================================"
+      "Iniciando extração..."
     );
 
     const dados =
       await processDocument(
-        filePath,
+        tempFilePath,
         tipo
       );
 
-    const id =
-      crypto.randomUUID();
+    console.log(
+      "Extração concluída."
+    );
 
-    saveTranscription({
+    /* =====================================================
+       SALVAR TRANSCRIÇÃO
+       ===================================================== */
+
+    /*
+     * IMPORTANTE:
+     * O TranscriptionData precisa possuir:
+     *
+     * pdfPath: string
+     *
+     * para conseguirmos recuperar o PDF do Blob
+     * posteriormente na Review.
+     */
+
+    await saveTranscription({
       id,
-      file: fileName,
+
+      file:
+        fileName,
+
       tipo,
+
+      pdfPath:
+        blob.pathname,
+
       dados,
     });
 
     console.log(
-      "Transcrição salva:",
-      id
+      "================================"
     );
+
+    console.log(
+      "TRANSCRIÇÃO SALVA"
+    );
+
+    console.log(
+      `ID: ${id}`
+    );
+
+    console.log(
+      `PDF: ${blob.pathname}`
+    );
+
+    console.log(
+      "================================"
+    );
+
+    /* =====================================================
+       RESPOSTA
+       ===================================================== */
 
     return NextResponse.json(
       {
         id,
-        status: "processed",
+
+        status:
+          "processed",
+
         tipo,
-        file: fileName,
+
+        file:
+          fileName,
+
         dados,
       },
       {
@@ -186,5 +293,36 @@ export async function POST(
         status: 500,
       }
     );
+  } finally {
+    /* =====================================================
+       LIMPAR ARQUIVO TEMPORÁRIO
+       ===================================================== */
+
+    if (tempFilePath) {
+      try {
+        const fs =
+          await import(
+            "fs/promises"
+          );
+
+        await fs.unlink(
+          tempFilePath
+        );
+
+        console.log(
+          "Arquivo temporário removido:"
+        );
+
+        console.log(
+          tempFilePath
+        );
+      } catch {
+        /*
+         * O arquivo temporário é descartável.
+         * Se já tiver sido removido pela plataforma,
+         * não precisamos fazer nada.
+         */
+      }
+    }
   }
 }

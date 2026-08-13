@@ -19,7 +19,7 @@ export async function GET(
     const { id } = await params;
 
     const transcription =
-      getTranscription(id);
+      await getTranscription(id);
 
     if (!transcription) {
       return NextResponse.json(
@@ -73,7 +73,7 @@ export async function PUT(
     const { id } = await params;
 
     const transcription =
-      getTranscription(id);
+      await getTranscription(id);
 
     if (!transcription) {
       return NextResponse.json(
@@ -96,7 +96,8 @@ export async function PUT(
     ) {
       return NextResponse.json(
         {
-          error: "Dados inválidos.",
+          error:
+            "Dados inválidos.",
         },
         {
           status: 400,
@@ -125,7 +126,7 @@ export async function PUT(
     }
 
     const updated =
-      updateTranscription(
+      await updateTranscription(
         id,
         dados
       );

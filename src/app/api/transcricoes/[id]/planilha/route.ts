@@ -17,7 +17,7 @@ export async function GET(
     const { id } = await params;
 
     const transcription =
-      getTranscription(id);
+      await getTranscription(id);
 
     if (!transcription) {
       return NextResponse.json(
@@ -60,7 +60,7 @@ export async function GET(
 
     /*
      * Converte o Buffer para Uint8Array
-     * para ser compatível com BodyInit
+     * para compatibilidade com Response
      * no ambiente de produção.
      */
     const excelBody =
