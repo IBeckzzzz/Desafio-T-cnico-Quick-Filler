@@ -1,0 +1,3733 @@
+{
+  "f090a0cb-0416-42c2-9781-39958bfc262d": {
+    "id": "f090a0cb-0416-42c2-9781-39958bfc262d",
+    "file": "payroll-01.pdf",
+    "tipo": "holerite",
+    "dados": {
+      "document_type": "holerite",
+      "layout_name": "ficha_financeira",
+      "pages": [
+        {
+          "page": 1,
+          "metadata": [
+            {
+              "label": "FICHAFINANCEIRA-PERIODO",
+              "value": "2017/04 a 2025/03"
+            },
+            {
+              "label": "CNPJ/CEI",
+              "value": "8888888888"
+            },
+            {
+              "label": "EMPREGADO",
+              "value": ""
+            },
+            {
+              "label": "CARGO",
+              "value": "MOTORISTA GRANEL"
+            },
+            {
+              "label": "CTPS",
+              "value": ""
+            },
+            {
+              "label": "DATADEADMISSÃO",
+              "value": "11/04/17"
+            }
+          ],
+          "sections": [
+            {
+              "name": "Folha Normal - Mês: abr-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1000,00",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "30,67",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "1.260,65"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "146,67",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,40",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "780,62"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "360,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "36,00",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "1.260,65"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "146,67",
+                  "Valor Proventos": "290,92",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "100,85",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "100,85"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.620,65",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.392,55"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "58,18",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "228,10",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: mai-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.454,59",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "46,00",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.064,79"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "756,39",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.499,78"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "19,23",
+                  "Valor Proventos": "28,03",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,40",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.064,79"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "436,38",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "22",
+                  "Valor Descontos": "66,00",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "165,18"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "8,48",
+                  "Valor Proventos": "116,66",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "185,83",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "916,64"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "1,88",
+                  "Valor Proventos": "29,13",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.064,79",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,25",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "87,28",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.148,15",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: jun-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.454,59",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "46,00",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.116,97"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "756,39",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.547,27"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "45,20",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,40",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.116,97"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "436,38",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "60,00",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "169,35"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "11,37",
+                  "Valor Proventos": "156,31",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "190,52",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "755,03"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "1,58",
+                  "Valor Proventos": "24,49",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.116,97",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "215,10",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,25",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "42",
+                  "Valor Descontos": "87,28",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.361,94",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: jul-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.454,59",
+                  "Código/Descrição Descontos": "207 Hrs Atrasos",
+                  "Ref Descontos": "0,683",
+                  "Valor Descontos": "5,87",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.052,44"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "46,00",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.488,55"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,83",
+                  "Valor Proventos": "28,85",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "756,39",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.052,44"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "436,38",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,40",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "164,19"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "9,13",
+                  "Valor Proventos": "125,60",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "21",
+                  "Valor Descontos": "63,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "693,28"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "0,83",
+                  "Valor Proventos": "12,89",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "184,71",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.058,31",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "215,13",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,25",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "42",
+                  "Valor Descontos": "87,28",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.365,03",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: ago-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.521,60",
+                  "Código/Descrição Descontos": "34 DSR",
+                  "Ref Descontos": "7,333",
+                  "Valor Descontos": "50,72",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "1.933,99"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "46,00",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.380,76"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "15,39",
+                  "Valor Proventos": "0,88",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "756,39",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "1.933,99"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "456,48",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,51",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "154,71"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "0,40",
+                  "Valor Proventos": "5,75",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "25",
+                  "Valor Descontos": "75,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "569,36"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.984,71",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "174,05",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "215,13",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,25",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "50",
+                  "Valor Descontos": "91,30",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.415,35",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: set-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.521,60",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "46,00",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "1.981,53"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "791,23",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.424,02"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "0,57",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,51",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "1.981,53"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "456,48",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "22",
+                  "Valor Descontos": "66,00",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "158,52"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "0,20",
+                  "Valor Proventos": "2,88",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "178,33",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "593,44"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.981,53",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,25",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "46",
+                  "Valor Descontos": "91,30",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.388,09",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "metadata": [
+            {
+              "label": "Fls.",
+              "value": "269"
+            }
+          ],
+          "sections": [
+            {
+              "name": "Adiantamento - PLR - Mês: out-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "2.819,91",
+                  "Código/Descrição Descontos": "313 IRF Part Result",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "2.819,91"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.819,91",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: out-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "207 Hrs Atrasos",
+                  "Ref Descontos": "0,15",
+                  "Valor Descontos": "1,39",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.112,76"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "50,14",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.543,44"
+                },
+                {
+                  "Código/Descrição Proventos": "21 Dif. Sal Diss",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "59,45",
+                  "Código/Descrição Descontos": "314 PLR Pago",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2.819,91",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.112,76"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "3,45",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "791,23",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "169,02"
+                },
+                {
+                  "Código/Descrição Proventos": "55 Reemb Desc Inde",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "50,72",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "759,63"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "21",
+                  "Valor Descontos": "63,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "0,93",
+                  "Valor Proventos": "13,82",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "190,14",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "2.819,91",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "4.984,78",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,25",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "46",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "4.225,15",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: nov-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.706,30"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "2.083,56"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "133,77",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.706,30"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "33,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "72,60",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "216,50"
+                },
+                {
+                  "Código/Descrição Proventos": "69 Dif Diss VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "57,00",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "243,56",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.294,23"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "13,46",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "13,46"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "30,15",
+                  "Valor Proventos": "446,75",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "5,30",
+                  "Valor Proventos": "88,35",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "416 13º Sal. Adto",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "764,00",
+                  "Código/Descrição Descontos": "803 13º Adt Pago",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "764,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "3.560,30",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "2.266,07",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: dez-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.676,68"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "2.056,60"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "127,85",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "764,00",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.676,68"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "66,00",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "214,13"
+                },
+                {
+                  "Código/Descrição Proventos": "51 Hr Adic Noturno",
+                  "Ref Proventos": "1,92",
+                  "Valor Proventos": "6,21",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "66,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.312,00"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "240,90",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "11,44"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "296,34",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,60",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "10,40",
+                  "Valor Proventos": "173,38",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "11,44",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "124 Hr Ext Not 80%",
+                  "Ref Proventos": "1,92",
+                  "Valor Proventos": "31,96",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "154 Hr Supl Ext Not",
+                  "Ref Proventos": "0,49",
+                  "Valor Proventos": "3,51",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "373 13º Norm Recal",
+                  "Ref Proventos": "9,00",
+                  "Valor Proventos": "1.528,07",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "376 13º Adic Recal",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "200,83",
+                  "Código/Descrição Descontos": "804 13º. Pg Dezembr",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "749,19",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "4.471,58",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "3.159,58",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "13 Salario - Mês: dez-17",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "9,00",
+                  "Valor Proventos": "1.528,07",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "764,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "749,19"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "134,77",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "149,65",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.042,03"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.111,59",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.079,39"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "480,44",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.055,72",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.300,54"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.180,85",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "261,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.307,55"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "609,55",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "233,28",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.339,49"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.879,83",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.373,43"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "569,57",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.090,43",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.393,01"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.110,21",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "336,03",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "445,73",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "251,13",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.384,85",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "33,42",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "267,19",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.439,91",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.554,10",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "284,21",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "72,55",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "341,85",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.714,04",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "82,89",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "25.043,34",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.555,11",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "246,39",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "349,11",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "97,78",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.692,42",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "160,23",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "347,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: jan-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "96,14",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.078,61"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.512,36"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "6,86",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.078,61"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "22",
+                  "Valor Descontos": "72,60",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "166,28"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "2,32",
+                  "Valor Proventos": "34,32",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "187,07",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "598,42"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "metadata": [
+            {
+              "label": "Fls.",
+              "value": "270"
+            }
+          ],
+          "sections": [
+            {
+              "name": "Folha Normal - Mês: jan-18 (continuação)",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.078,61",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "44",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.480,19",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Adiantamento - PLR - Mês: fev-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "458,42",
+                  "Código/Descrição Descontos": "313 IRF Part Result",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "458,42"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "458,42",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: fev-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.150,33"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "314 PLR Pago",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "458,42",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.577,63"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "18,81",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.150,33"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "172,02"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "6,35",
+                  "Valor Proventos": "94,09",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "66,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "718,36"
+                },
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "458,42",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "193,52",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.608,75",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.890,39",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: mar-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.404,33"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.808,77"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "61,15",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.404,33"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "33,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "21",
+                  "Valor Descontos": "69,30",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "192,34"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "216,38",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "979,20"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "10,13",
+                  "Valor Proventos": "150,15",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "9,33",
+                  "Valor Proventos": "155,60",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,47",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.437,33",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "42",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.458,13",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: abr-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.360,75"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.769,11"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "64,66",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.360,75"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "33,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "21",
+                  "Valor Descontos": "69,30",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "188,86"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "212,46",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "914,52"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "8,40",
+                  "Valor Proventos": "124,47",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "8,05",
+                  "Valor Proventos": "134,19",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "233,49",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.393,75",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "70",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.479,23",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: mai-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.597,76"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.984,79"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "112,06",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.597,76"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "99,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "21",
+                  "Valor Descontos": "69,30",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "207,82"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "233,79",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.274,04"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "13,43",
+                  "Valor Proventos": "199,06",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "14,95",
+                  "Valor Proventos": "249,21",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.696,76",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "94,03",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.422,72",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: jun-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.773,90"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "2.145,07"
+                },
+                {
+                  "Código/Descrição Proventos": "7 Reemb. Despesas",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "20,00",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.773,90"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "122,74",
+                  "Código/Descrição Descontos": "492 Multas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "104,13",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "221,91"
+                },
+                {
+                  "Código/Descrição Proventos": "58 Reemb. Ass. Méd",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "77,83",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "66,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.314,23"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "249,65",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "18,08"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "22,20",
+                  "Valor Proventos": "328,94",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "18,08",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "17,08",
+                  "Valor Proventos": "284,79",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.871,73",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.557,50",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: jul-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.930,38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "metadata": [
+            {
+              "label": "Fls.",
+              "value": "271"
+            }
+          ],
+          "sections": [
+            {
+              "name": "Folha Normal - Mês: jul-18 (continuação)",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "2.228,86"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "178,59",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "2,58",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.930,38"
+                },
+                {
+                  "Código/Descrição Proventos": "51 Hr Adic Noturno",
+                  "Ref Proventos": "0,18",
+                  "Valor Proventos": "0,59",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "21",
+                  "Valor Descontos": "69,30",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "234,43"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "322,34",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.394,74"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "18,72",
+                  "Valor Proventos": "277,34",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "24,36",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "24,36"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "26,00",
+                  "Valor Proventos": "433,42",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "122 Hr Ext Not 60%",
+                  "Ref Proventos": "0,18",
+                  "Valor Proventos": "2,71",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "154 Hr Supl Ext Not",
+                  "Ref Proventos": "0,04",
+                  "Valor Proventos": "0,30",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "42",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.930,38",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.535,64",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: ago-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.567,25",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.630,79"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "814,97",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "2.014,84"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "15,38",
+                  "Valor Proventos": "79,09",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,76",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.630,79"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "297,00",
+                  "Código/Descrição Descontos": "492 Multas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "104,13",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "210,46"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "470,18",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "23",
+                  "Valor Descontos": "75,90",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.392,17"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "15,15",
+                  "Valor Proventos": "224,50",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "236,77",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "17,38",
+                  "Valor Proventos": "289,77",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.927,79",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "86",
+                  "Valor Descontos": "94,04",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.535,62",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: set-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "104,49",
+                  "Código/Descrição Descontos": "237 Ferias Recebida",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "3.525,03",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "3.172,85"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "14,67",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "319,94"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "36,82",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,76",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "25,59"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "14,67",
+                  "Valor Proventos": "31,35",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "349,01",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "74,93"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "5,83",
+                  "Valor Proventos": "86,43",
+                  "Código/Descrição Descontos": "564 IRF Recol Fer",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "32,79",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "32,79"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "3,65",
+                  "Valor Proventos": "60,85",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "221 Fer Normais",
+                  "Ref Proventos": "28,00",
+                  "Valor Proventos": "1.901,60",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,32",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "222 Médias Férias",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "238,08",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "4.116,64",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "227 Fer 1/3",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "713,23",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "416 13º Sal. Adto",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "1.018,72",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "4.191,57",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Adiantamento - PLR - Mês: out-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.878,54",
+                  "Código/Descrição Descontos": "313 IRF Part Result",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "3.878,54"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "3.878,54",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: out-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.516,01",
+                  "Código/Descrição Descontos": "237 Ferias Recebida",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "181,36",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.543,74"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "205,33",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "48,07",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.659,10"
+                },
+                {
+                  "Código/Descrição Proventos": "21 Dif. Sal Diss",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "3,80",
+                  "Código/Descrição Descontos": "314 PLR Pago",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "3.878,54",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.244,79"
+                },
+                {
+                  "Código/Descrição Proventos": "22 Dif.Diss.Ferias",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "95,17",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "762,39",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "179,58"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "43,72",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,82",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.037,07"
+                },
+                {
+                  "Código/Descrição Proventos": "40 Reembolso VR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "33,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "66,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "41 Dif Diss HE/DSR",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "6,70",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "228,93",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "70 Dif. Diss. Peri",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "1,14",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "205,33",
+                  "Valor Proventos": "454,80",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "5,97",
+                  "Valor Proventos": "91,64",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,48",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "7,35",
+                  "Valor Proventos": "126,98",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "90,96",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "221 Fer Normais",
+                  "Ref Proventos": "2,00",
+                  "Valor Proventos": "135,83",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "5.418,21",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "222 Médias Férias",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "17,01",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "227 Fer 1/3",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "50,94",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "3.878,54",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "6.455,28",
+                  "Código/Descrição Descontos": "",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: nov-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.624,30",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "53,86",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.545,95"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "844,64",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.937,64"
+                },
+                {
+                  "Código/Descrição Proventos": "7 Reemb. Despesas",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "30,00",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,82",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.545,95"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "86,87",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "20",
+                  "Valor Descontos": "72,30",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "203,67"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "487,29",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "229,13",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.116,60"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "11,13",
+                  "Valor Proventos": "170,99",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "10,22",
+                  "Valor Proventos": "176,50",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "416 13º Sal. Adto",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "37,00",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,48",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "420 13º Adic Adto",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "261,00",
+                  "Código/Descrição Descontos": "803 13º Adt Pago",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "298,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.873,95",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "97,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.757,35",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: dez-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.624,30",
+                  "Código/Descrição Descontos": "207 Hrs Atrasos",
+                  "Ref Descontos": "0,167",
+                  "Valor Descontos": "1,60",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.581,94"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "100,00",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.970,39"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "25,00",
+                  "Valor Proventos": "94,39",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "844,64",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.581,94"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": 5,
+          "metadata": [
+            {
+              "label": "Fls.",
+              "value": "272"
+            }
+          ],
+          "sections": [
+            {
+              "name": "Folha Normal - Mês: dez-18 (continuação)",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "51 Hr Adic Noturno",
+                  "Ref Proventos": "0,10",
+                  "Valor Proventos": "0,34",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.055,72",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "206,55"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "487,29",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "261,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.113,99"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "11,23",
+                  "Valor Proventos": "172,51",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,82",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "11,75",
+                  "Valor Proventos": "203,00",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "22",
+                  "Valor Descontos": "75,90",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "122 Hr Ext Not 60%",
+                  "Ref Proventos": "0,10",
+                  "Valor Proventos": "1,54",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "232,37",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "154 Hr Supl Ext Not",
+                  "Ref Proventos": "0,02",
+                  "Valor Proventos": "0,17",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "237,67",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "373 13º Norm Recal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.111,59",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "376 13º Adic Recal",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "529,21",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "5.224,34",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,48",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "804 13º. Pg Dezembr",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.042,03",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "40",
+                  "Valor Descontos": "97,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "4.110,35",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "13 Salario - Mês: dez-18",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "9,00",
+                  "Valor Proventos": "1.528,07",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "764,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "749,19"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "134,77",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "149,65",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.042,03"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.111,59",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.079,39"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "480,44",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.055,72",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.300,54"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.180,85",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "261,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.307,55"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "609,55",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "233,28",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.339,49"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "2.879,83",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.373,43"
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "569,57",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.090,43",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.393,01"
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.110,21",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "336,03",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "445,73",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "251,13",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.384,85",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "33,42",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "267,19",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.439,91",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.554,10",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "284,21",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "374 13º Adicionais",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "72,55",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "341,85",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "371 13º Normal",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "3.714,04",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "82,89",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "25.043,34",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.555,11",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "246,39",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "349,11",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "563 IRF 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "97,78",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "419 13º. Adto Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1.692,42",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "421 13º Adic Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "160,23",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "512 INSS 13o. Sal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "347,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: jan-19",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.624,30",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "50,00",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.312,55"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "844,64",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.725,25"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "33,49",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,82",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.312,55"
+                },
+                {
+                  "Código/Descrição Proventos": "51 Hr Adic Noturno",
+                  "Ref Proventos": "0,17",
+                  "Valor Proventos": "0,56",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "25",
+                  "Valor Descontos": "86,25",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "185,00"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "487,29",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "208,12",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "864,12"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "6,48",
+                  "Valor Proventos": "99,56",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "3,73",
+                  "Valor Proventos": "64,51",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "122 Hr Ext Not 60%",
+                  "Ref Proventos": "0,17",
+                  "Valor Proventos": "2,56",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,48",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "154 Hr Supl Ext Not",
+                  "Ref Proventos": "0,04",
+                  "Valor Proventos": "0,28",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "44",
+                  "Valor Descontos": "97,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.312,55",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.448,43",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Adiantamento - PLR - Mês: fev-19",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "12,00",
+                  "Valor Proventos": "633,48",
+                  "Código/Descrição Descontos": "313 IRF Part Result",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "633,48"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "633,48",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: fev-19",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.624,30",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "50,00",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.406,62"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "314 PLR Pago",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "633,48",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.810,85"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "49,17",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "844,64",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.406,62"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "487,29",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,82",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "192,52"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "7,83",
+                  "Valor Proventos": "120,31",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "19",
+                  "Valor Descontos": "65,55",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "970,42"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "7,27",
+                  "Valor Proventos": "125,55",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "216,59",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "311 Part Lucr Resul",
+                  "Ref Proventos": "0,00",
+                  "Valor Proventos": "633,48",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "3.040,10",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,48",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "38",
+                  "Valor Descontos": "97,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "2.069,68",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            },
+            {
+              "name": "Folha Normal - Mês: mar-19",
+              "columns": [
+                "Código/Descrição Proventos",
+                "Ref Proventos",
+                "Valor Proventos",
+                "Código/Descrição Descontos",
+                "Ref Descontos",
+                "Valor Descontos",
+                "Descrição Resultados",
+                "Valor Resultados"
+              ],
+              "rows": [
+                {
+                  "Código/Descrição Proventos": "REMUNERAÇÃOMES",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "1.624,30",
+                  "Código/Descrição Descontos": "290 VA Funcionario",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "50,00",
+                  "Descrição Resultados": "BASEDECALCULODOINSS",
+                  "Valor Resultados": "2.460,70"
+                },
+                {
+                  "Código/Descrição Proventos": "DIAS/HORASTRAB",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "220,00",
+                  "Código/Descrição Descontos": "404 Adt Norm Desc",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "844,64",
+                  "Descrição Resultados": "BASEDECALCULODOIRF",
+                  "Valor Resultados": "1.860,06"
+                },
+                {
+                  "Código/Descrição Proventos": "37 DSR Adicional",
+                  "Ref Proventos": "20,00",
+                  "Valor Proventos": "58,18",
+                  "Código/Descrição Descontos": "491 Seguro Vida Fun",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "1,82",
+                  "Descrição Resultados": "BASEDECALCULODOFGTS",
+                  "Valor Resultados": "2.460,70"
+                },
+                {
+                  "Código/Descrição Proventos": "91 Hr Adic Pericul",
+                  "Ref Proventos": "220,00",
+                  "Valor Proventos": "487,29",
+                  "Código/Descrição Descontos": "499 Vale Ref Func",
+                  "Ref Descontos": "23",
+                  "Valor Descontos": "79,35",
+                  "Descrição Resultados": "VALORDOFGTS",
+                  "Valor Resultados": "196,85"
+                },
+                {
+                  "Código/Descrição Proventos": "102 Hr Ext Diu 60%",
+                  "Ref Proventos": "7,47",
+                  "Valor Proventos": "114,66",
+                  "Código/Descrição Descontos": "511 INSS Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "221,46",
+                  "Descrição Resultados": "SALARIOLIQUIDONOMES",
+                  "Valor Resultados": "1.005,83"
+                },
+                {
+                  "Código/Descrição Proventos": "104 Hr Ext Diu 80%",
+                  "Ref Proventos": "7,02",
+                  "Valor Proventos": "121,23",
+                  "Código/Descrição Descontos": "561 IRF Normal",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "0,00",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "107 Hr Ext Diu 100%",
+                  "Ref Proventos": "2,87",
+                  "Valor Proventos": "55,04",
+                  "Código/Descrição Descontos": "613 Smart 500 QC",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "155,66",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "TOT.RENDIMENTOS",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "2.460,70",
+                  "Código/Descrição Descontos": "684 Vale Gas",
+                  "Ref Descontos": "0",
+                  "Valor Descontos": "4,48",
+                  "Descrição Resultados": "VALORDOIRFARECOLHER",
+                  "Valor Resultados": "0,00"
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "820 Vale Transp Fun",
+                  "Ref Descontos": "42",
+                  "Valor Descontos": "97,46",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                },
+                {
+                  "Código/Descrição Proventos": "",
+                  "Ref Proventos": "",
+                  "Valor Proventos": "",
+                  "Código/Descrição Descontos": "TOTALDESCONTOS",
+                  "Ref Descontos": "",
+                  "Valor Descontos": "1.454,87",
+                  "Descrição Resultados": "",
+                  "Valor Resultados": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1237 @@
+/*
+ * Quick Filler — Design System CSS
+ * Interface visual: Upload / Processing / Review
+ * Fonte: Inter (400, 500, 600, 700)
+ * Paleta: azul corporativo (#173772, #2B4D7F), fundo #F5F7FA
+ */
+
+:root {
+  --radius: 0.5rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+
+  --font-sans:
+    "Inter",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --background: #f5f7fa;
+  --surface: #ffffff;
+  --surface-muted: #f7f9fb;
+  --card: #ffffff;
+  --card-foreground: #2c3138;
+
+  --foreground: #2c3138;
+  --muted-foreground: #6b7280;
+  --primary-foreground: #ffffff;
+  --secondary-foreground: #2b4d7f;
+
+  --primary: #2b4d7f;
+  --brand: #2b4d7f;
+  --brand-strong: #173772;
+  --brand-soft: #eef1f7;
+
+  --secondary: #f1f4f8;
+  --muted: #f1f4f8;
+  --accent: #eef1f7;
+  --accent-foreground: #2b4d7f;
+
+  --destructive: #dc3545;
+  --destructive-foreground: #ffffff;
+
+  --success: #28a745;
+  --success-soft: #e8f5ed;
+
+  --warning: #f5a623;
+
+  --border: #e2e4e9;
+  --input: #e2e4e9;
+  --ring: #173772;
+  --ring-offset: #ffffff;
+
+  --shadow-card:
+    0 1px 2px rgba(44, 49, 56, 0.04),
+    0 8px 24px -12px rgba(44, 49, 56, 0.12);
+
+  --shadow-elevated:
+    0 2px 4px rgba(44, 49, 56, 0.04),
+    0 24px 48px -24px rgba(44, 49, 56, 0.22);
+
+  --focus-ring:
+    0 0 0 3px rgba(23, 55, 114, 0.14);
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-color: var(--border);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+button {
+  outline: none;
+}
+
+/* ============================================================
+   TIPOGRAFIA
+   ============================================================ */
+
+.qf-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.qf-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.qf-text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.qf-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.qf-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.qf-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.qf-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.qf-text-page-title {
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+}
+
+.qf-text-section-title {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+}
+
+.qf-text-table {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+}
+
+.qf-text-brand-subtitle {
+  font-size: 0.95rem;
+  line-height: 1.25rem;
+}
+
+.qf-font-normal {
+  font-weight: 400;
+}
+
+.qf-font-medium {
+  font-weight: 500;
+}
+
+.qf-font-semibold {
+  font-weight: 600;
+}
+
+.qf-font-bold {
+  font-weight: 700;
+}
+
+.qf-tracking-tight {
+  letter-spacing: -0.02em;
+}
+
+.qf-tracking-wide {
+  letter-spacing: 0.06em;
+}
+
+.qf-tracking-wider {
+  letter-spacing: 0.08em;
+}
+
+.qf-uppercase {
+  text-transform: uppercase;
+}
+
+.qf-leading-relaxed {
+  line-height: 1.625;
+}
+
+.qf-text-foreground {
+  color: var(--foreground);
+}
+
+.qf-text-muted {
+  color: var(--muted-foreground);
+}
+
+.qf-text-brand {
+  color: var(--brand);
+}
+
+.qf-text-brand-strong {
+  color: var(--brand-strong);
+}
+
+.qf-text-success {
+  color: var(--success);
+}
+
+.qf-text-primary-foreground {
+  color: var(--primary-foreground);
+}
+
+.qf-text-destructive {
+  color: var(--destructive);
+}
+
+.qf-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+
+.qf-page {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.qf-container {
+  width: 100%;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .qf-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.qf-container-wide {
+  max-width: 1600px;
+}
+
+.qf-flex {
+  display: flex;
+}
+
+.qf-items-center {
+  align-items: center;
+}
+
+.qf-justify-center {
+  justify-content: center;
+}
+
+.qf-justify-between {
+  justify-content: space-between;
+}
+
+.qf-flex-col {
+  flex-direction: column;
+}
+
+.qf-flex-1 {
+  flex: 1 1 0%;
+}
+
+.qf-grid {
+  display: grid;
+}
+
+.qf-gap-2 {
+  gap: 0.5rem;
+}
+
+.qf-gap-3 {
+  gap: 0.75rem;
+}
+
+.qf-gap-4 {
+  gap: 1rem;
+}
+
+.qf-gap-5 {
+  gap: 1.25rem;
+}
+
+.qf-gap-8 {
+  gap: 2rem;
+}
+
+.qf-gap-10 {
+  gap: 2.5rem;
+}
+
+.qf-space-y-1 > * + * {
+  margin-top: 0.25rem;
+}
+
+.qf-space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+.qf-space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.qf-space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+.qf-min-w-0 {
+  min-width: 0;
+}
+
+.qf-sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.qf-sticky-content {
+  position: sticky;
+  top: 5.25rem;
+  height: calc(100vh - 7rem);
+}
+
+/* ============================================================
+   CARD / SURFACE
+   ============================================================ */
+
+.qf-card,
+.qf-surface {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+}
+
+.qf-card-padding {
+  padding: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .qf-card-padding {
+    padding: 1.75rem;
+  }
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.qf-header {
+  border-bottom: 1px solid var(--border);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.qf-header-inner {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* ============================================================
+   LABELS
+   ============================================================ */
+
+.qf-label {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+/* ============================================================
+   INPUTS
+   ============================================================ */
+
+.qf-field {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--foreground);
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    background-color 150ms ease;
+}
+
+.qf-field::placeholder {
+  color: rgba(107, 114, 128, 0.65);
+}
+
+.qf-field:hover:not(:focus) {
+  border-color: #b8c4d4;
+}
+
+.qf-field:focus {
+  border-color: var(--brand-strong);
+  box-shadow: var(--focus-ring);
+}
+
+.qf-field-table {
+  height: 2.25rem;
+  border-color: transparent;
+  background-color: transparent;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.8125rem;
+}
+
+.qf-field-table:hover {
+  background-color: var(--surface-muted);
+}
+
+/* ============================================================
+   BOTÕES
+   ============================================================ */
+
+.qf-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-lg);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition:
+    background-color 150ms ease,
+    color 150ms ease,
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    opacity 150ms ease;
+  cursor: pointer;
+  border: none;
+}
+
+.qf-button-primary {
+  height: 2.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: var(--brand) !important;
+  color: #ffffff !important;
+  box-shadow: var(--shadow-card);
+}
+
+/* CORREÇÃO DO HOVER */
+.qf-button-primary:hover,
+.qf-button-primary.MuiButton-root:hover {
+  background-color: var(--brand-strong) !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Garante que texto e ícones permaneçam brancos no hover */
+.qf-button-primary:hover *,
+.qf-button-primary.MuiButton-root:hover *,
+.qf-button-primary:hover span,
+.qf-button-primary:hover svg {
+  color: #ffffff !important;
+}
+
+/* Foco */
+.qf-button-primary:focus,
+.qf-button-primary.MuiButton-root:focus,
+.qf-button-primary:focus-visible,
+.qf-button-primary.MuiButton-root:focus-visible {
+  background-color: var(--brand-strong) !important;
+  color: #ffffff !important;
+}
+
+/* Active */
+.qf-button-primary:active,
+.qf-button-primary.MuiButton-root:active {
+  background-color: #102b5a !important;
+  color: #ffffff !important;
+}
+
+/* Disabled */
+.qf-button-primary:disabled,
+.qf-button-primary.Mui-disabled,
+.qf-button-primary.qf-disabled {
+  pointer-events: none;
+  opacity: 0.5 !important;
+  background-color: var(--muted) !important;
+  color: var(--muted-foreground) !important;
+  box-shadow: none;
+}
+
+/* Ícones */
+.qf-button-primary .MuiButton-startIcon,
+.qf-button-primary .MuiButton-endIcon,
+.qf-button-primary.MuiButton-root .MuiButton-startIcon,
+.qf-button-primary.MuiButton-root .MuiButton-endIcon {
+  color: inherit !important;
+}
+
+.qf-button-secondary {
+  height: 2.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: var(--surface);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.qf-button-secondary:hover {
+  background-color: var(--surface-muted);
+}
+
+.qf-button-sm {
+  height: 2.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.qf-button-block {
+  width: 100%;
+}
+
+/* ============================================================
+   DROPZONE
+   ============================================================ */
+
+.qf-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
+  background-color: var(--surface-muted);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background-color 150ms ease,
+    transform 150ms ease;
+}
+
+.qf-dropzone:hover {
+  border-color: rgba(23, 55, 114, 0.5);
+  background-color: rgba(238, 241, 247, 0.6);
+}
+
+.qf-dropzone-active {
+  border-color: var(--brand-strong);
+  background-color: var(--brand-soft);
+}
+
+.qf-dropzone-icon {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  background-color: var(--brand-soft);
+  color: var(--brand-strong);
+  transition: transform 150ms ease;
+}
+
+.qf-dropzone:hover .qf-dropzone-icon {
+  transform: translateY(-2px);
+}
+
+/* ============================================================
+   RADIO CARDS
+   ============================================================ */
+
+.qf-radio-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background-color: var(--surface);
+  padding: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background-color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.qf-radio-card:hover {
+  border-color: rgba(23, 55, 114, 0.4);
+  background-color: var(--surface-muted);
+}
+
+.qf-radio-card-active {
+  border-color: var(--brand-strong);
+  background-color: var(--brand-soft);
+  box-shadow: var(--shadow-card);
+}
+
+.qf-radio-indicator {
+  display: grid;
+  place-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  margin-top: 0.125rem;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.qf-radio-card-active .qf-radio-indicator {
+  border-color: var(--brand-strong);
+  background-color: var(--brand-strong);
+}
+
+.qf-radio-indicator-dot {
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 9999px;
+  background-color: var(--surface);
+}
+
+/* ============================================================
+   BADGES
+   ============================================================ */
+
+.qf-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 0.125rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.qf-badge-soft {
+  background-color: var(--brand-soft);
+  color: var(--brand-strong);
+}
+
+.qf-badge-muted {
+  background-color: var(--surface-muted);
+  color: var(--muted-foreground);
+}
+
+/* ============================================================
+   SECTION HEADER
+   ============================================================ */
+
+.qf-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.qf-section-header-bar {
+  width: 3px;
+  height: 1rem;
+  border-radius: 9999px;
+  background-color: var(--brand-strong);
+  flex-shrink: 0;
+}
+
+.qf-section-header-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--foreground);
+}
+
+.qf-section-header-desc {
+  margin-top: 0.125rem;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+.qf-section-header-count {
+  margin-left: auto;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--brand-soft);
+  padding: 0.125rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--brand-strong);
+}
+
+/* ============================================================
+   STEPPER
+   ============================================================ */
+
+.qf-stepper {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qf-stepper-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: var(--radius-lg);
+  padding: 0.75rem;
+  transition: background-color 150ms ease;
+}
+
+.qf-stepper-item-active {
+  background-color: rgba(238, 241, 247, 0.7);
+}
+
+.qf-stepper-number {
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.125rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted-foreground);
+  flex-shrink: 0;
+}
+
+.qf-stepper-number-done {
+  border-color: var(--success);
+  background-color: var(--success);
+  color: var(--primary-foreground);
+}
+
+.qf-stepper-number-active {
+  border-color: var(--brand-strong);
+  color: var(--brand-strong);
+}
+
+.qf-stepper-label {
+  min-width: 0;
+  flex: 1;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.qf-stepper-label-active {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.qf-stepper-status {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.qf-stepper-status-done {
+  color: var(--success);
+}
+
+.qf-stepper-status-active {
+  color: var(--brand-strong);
+}
+
+/* ============================================================
+   PROGRESS
+   ============================================================ */
+
+.qf-progress {
+  width: 100%;
+  height: 0.375rem;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: var(--muted);
+}
+
+.qf-progress-bar {
+  height: 100%;
+  border-radius: 9999px;
+  background-color: var(--brand-strong);
+  transition: width 500ms ease;
+}
+
+/* ============================================================
+   FILE SELECTED
+   ============================================================ */
+
+.qf-file-selected {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(23, 55, 114, 0.25);
+  border-radius: var(--radius-lg);
+  background-color: rgba(238, 241, 247, 0.7);
+  padding: 1rem;
+}
+
+.qf-file-icon {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--radius-lg);
+  background-color: var(--surface);
+  color: var(--brand-strong);
+  box-shadow: var(--shadow-card);
+  flex-shrink: 0;
+}
+
+.qf-file-remove {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-md);
+  color: var(--muted-foreground);
+  transition: all 150ms ease;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.qf-file-remove:hover {
+  background-color: var(--surface);
+  color: var(--foreground);
+}
+
+/* ============================================================
+   BRAND
+   ============================================================ */
+
+.qf-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.qf-brand-icon {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-lg);
+  background-color: var(--brand);
+  color: var(--primary-foreground);
+  box-shadow: var(--shadow-card);
+  flex-shrink: 0;
+}
+
+.qf-brand-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+.qf-brand-tagline {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+/* ============================================================
+   TABELAS
+   ============================================================ */
+
+.qf-table-container {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.qf-table-header {
+  background-color: var(--surface-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.qf-table-row {
+  border-bottom: 1px solid var(--border);
+  transition: background-color 150ms ease;
+}
+
+.qf-table-row:last-child {
+  border-bottom: none;
+}
+
+.qf-table-row:hover {
+  background-color: rgba(247, 249, 251, 0.6);
+}
+
+.qf-table-scroll {
+  overflow-x: auto;
+}
+
+.qf-table-min {
+  min-width: 860px;
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+
+.qf-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(107, 114, 128, 0.35) transparent;
+}
+
+.qf-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.qf-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.qf-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(107, 114, 128, 0.35);
+  border-radius: 9999px;
+}
+
+/* ============================================================
+   PDF
+   ============================================================ */
+
+.qf-pdf-viewer {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  min-height: 400px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background-color: rgba(44, 49, 56, 0.92);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+/* ============================================================
+   ACTION BAR
+   ============================================================ */
+
+.qf-action-bar {
+  border-top: 1px solid var(--border);
+  background-color: var(--surface);
+  padding: 1rem 1.25rem;
+}
+
+/* ============================================================
+   RESPONSIVIDADE
+   ============================================================ */
+
+@media (min-width: 768px) {
+  .qf-hide-md {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .qf-show-md {
+    display: none;
+  }
+
+  .qf-grid-review {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   GRID DE CAMPOS
+   ============================================================ */
+
+.qf-grid-fields {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .qf-grid-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .qf-grid-fields .qf-col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+}
+
+/* ============================================================
+   GRID REVIEW
+   ============================================================ */
+
+.qf-grid-review {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 520px);
+}
+
+@media (min-width: 1280px) {
+  .qf-grid-review {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 620px);
+  }
+}
+
+/* ============================================================
+   GRID UPLOAD
+   ============================================================ */
+
+.qf-grid-upload {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+  width: 100%;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .qf-grid-upload {
+    grid-template-columns:
+      minmax(0, 850px)
+      320px;
+    gap: 2rem;
+    align-items: start;
+  }
+}
+
+/* ============================================================
+   GRID RADIO
+   ============================================================ */
+
+.qf-grid-radio {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .qf-grid-radio {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ============================================================
+   ANIMAÇÕES
+   ============================================================ */
+
+@keyframes qf-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.qf-animate-spin {
+  animation: qf-spin 1s linear infinite;
+}
+
+@keyframes qf-ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.qf-animate-ping {
+  animation: qf-ping 1.5s cubic-bezier(0, 0, 0.2, 1)
+    infinite;
+}
+
+/* ============================================================
+   INTEGRAÇÃO MATERIAL UI
+   ============================================================ */
+
+.qf-mui-field .MuiOutlinedInput-root {
+  min-height: 2.5rem;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  font-family: var(--font-sans);
+}
+
+.qf-mui-field .MuiOutlinedInput-notchedOutline {
+  border-color: var(--border);
+}
+
+.qf-mui-field:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #b8c4d4;
+}
+
+.qf-mui-field
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--brand-strong);
+  box-shadow: var(--focus-ring);
+  border-width: 1px;
+}
+
+.qf-mui-field .MuiInputLabel-root {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.qf-mui-field .MuiInputBase-input {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--foreground);
+}
+
+.qf-mui-table-field .MuiInputBase-input {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  padding: 0.5rem;
+}
+
+.qf-mui-table-field
+  .MuiInput-underline::before {
+  border-bottom-color: transparent;
+}
+
+.qf-mui-table-field
+  .MuiInput-underline:hover:not(.Mui-disabled)::before {
+  border-bottom-color: var(--border);
+}
+
+.qf-mui-table-field
+  .MuiInput-underline::after {
+  border-bottom-color: var(--brand-strong);
+}
+
+/* ============================================================
+   CORREÇÃO FINAL DE HOVER DOS BOTÕES MUI
+   ============================================================ */
+
+.qf-button-primary,
+.qf-button-primary.MuiButton-root {
+  background-color: var(--brand) !important;
+  color: #ffffff !important;
+}
+
+.qf-button-primary:hover,
+.qf-button-primary.MuiButton-root:hover {
+  background-color: var(--brand-strong) !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.qf-button-primary:hover *,
+.qf-button-primary.MuiButton-root:hover * {
+  color: #ffffff !important;
+}
+
+.qf-button-primary:hover svg,
+.qf-button-primary.MuiButton-root:hover svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.qf-button-primary.Mui-disabled,
+.qf-button-primary:disabled {
+  background-color: var(--muted) !important;
+  color: var(--muted-foreground) !important;
+  opacity: 0.5 !important;
+}
+
+.qf-button-primary.Mui-disabled *,
+.qf-button-primary:disabled * {
+  color: var(--muted-foreground) !important;
+}
+
+span.MuiTypography-root.MuiTypography-caption.css-1xxxgen-MuiTypography-root {
+    display: none;
+}
