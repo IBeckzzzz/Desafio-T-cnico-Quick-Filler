@@ -121,8 +121,8 @@ src/
 │   │   │       └── planilha/
 │   │   │           └── route.ts
 │   │   └── uploads/
-│   │       └── [id]/
-│   │           └── route.ts
+│       └── [id]/
+│           └── route.ts
 │   ├── review/
 │   │   └── page.tsx
 │   └── page.tsx
@@ -201,11 +201,11 @@ Recebe o PDF e o tipo selecionado.
 Responsabilidades:
 
 - validar o arquivo;
-- armazenar o PDF no Vercel Blob;
+- armazenar o PDF no Vercel Blob privado;
 - preparar o PDF para o processamento;
 - executar o processamento pela Gemini;
 - criar o ID da transcrição;
-- persistir os dados da transcrição;
+- persistir os dados da transcrição no Vercel Blob;
 - retornar o identificador utilizado pela Review.
 
 ## `GET /api/transcricoes/:id`
@@ -276,6 +276,8 @@ Um documento processado segue conceitualmente esta estrutura:
 
 Esse modelo permite representar tanto documentos simples quanto fichas financeiras com várias páginas e competências diferentes.
 
+A transcrição persistida também mantém informações de referência do arquivo, incluindo o caminho (`pdfPath`) do PDF armazenado no Vercel Blob.
+
 ---
 
 # Persistência
@@ -310,10 +312,11 @@ Essa persistência em JSON é adequada para o desafio e para desenvolvimento loc
 - **Material UI (MUI)**
 - **Google Gemini API**
 - **@google/genai**
-- **Vercel Blob (`@vercel/blob`)**
+- **Vercel Blob privado**
+- **@vercel/blob**
 - **xlsx**
 - **PDF no navegador por iframe**
-- **Vercel** para deploy e armazenamento
+- **Vercel** para deploy
 
 ---
 
@@ -322,10 +325,8 @@ Essa persistência em JSON é adequada para o desafio e para desenvolvimento loc
 ## Pré-requisitos
 
 - Node.js instalado;
-- pnpm recomendado (também é possível usar npm/yarn/bun);
-- uma chave da API Gemini;
-- uma conta/projeto na Vercel para o ambiente publicado;
-- um Vercel Blob privado conectado ao projeto.
+- npm, yarn, pnpm ou bun;
+- uma chave da API Gemini.
 
 ## Instalação
 
@@ -380,19 +381,34 @@ http://localhost:3000
 
 ---
 
-# Deploy
+# Deploy na Vercel
 
-A aplicação está preparada para deploy na **Vercel**.
+O projeto está preparado para execução em produção na Vercel.
 
-Fluxo recomendado:
+## Configuração necessária
 
-1. publicar o código no GitHub;
-2. importar o repositório na Vercel;
-3. configurar `GEMINI_API_KEY` nas Environment Variables;
-4. conectar/criar um **Vercel Blob privado**;
-5. fazer o deploy da branch `main`.
+1. Importar o repositório do GitHub na Vercel.
+2. Configurar `GEMINI_API_KEY` em **Project Settings → Environment Variables**.
+3. Conectar um **Vercel Blob privado** ao projeto.
+4. Garantir que o Blob esteja disponível para o ambiente de produção.
+5. Fazer deploy da branch `main`.
 
-A persistência de PDFs e transcrições em produção não depende de `uploads/` nem de `data/transcriptions.json`; os arquivos são armazenados no Vercel Blob.
+## Armazenamento em produção
+
+O projeto não depende de:
+
+```text
+uploads/
+data/transcriptions.json
+```
+
+como armazenamento persistente de produção.
+
+Os documentos e as transcrições são armazenados no Vercel Blob. O uso de `/tmp` no processamento, quando necessário, é apenas temporário durante a execução da Function.
+
+## Domínio
+
+A aplicação pode utilizar o domínio `vercel.app` fornecido pela Vercel ou um domínio próprio pertencente ao responsável pela implantação.
 
 ---
 
@@ -530,6 +546,7 @@ quick-filler/
 ├── src/
 ├── public/
 ├── exemplos/
+├── .env.local
 ├── README.md
 ├── SOLUCAO.md
 ├── PROCESSO.md
@@ -566,9 +583,8 @@ Edição
 Salvar
  ↓
 Exportação XLSX
-```
 
-A aplicação está preparada para execução em produção na Vercel, sem depender do filesystem local para persistência.
+```
 
 Os bônus foram documentados individualmente neste README para deixar explícito o que está implementado, parcialmente implementado e o que ainda seria necessário desenvolver.
 
