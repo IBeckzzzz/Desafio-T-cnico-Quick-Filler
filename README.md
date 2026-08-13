@@ -1,8 +1,8 @@
 # Quick Filler
 
-Aplicação web desenvolvida para o desafio técnico do **Quick Filler**, com foco em **extração, revisão e exportação de informações presentes em documentos PDF**.
+Aplicação web desenvolvida para o desafio técnico do **Quick Filler**, com foco em **extração, revisão e exportação de informações presentes em documentos PDF**.
 
-A solução utiliza **Next.js, React, TypeScript, Material UI e Google Gemini** para transformar documentos com layouts diferentes em uma estrutura dinâmica que pode ser revisada pelo usuário e exportada para Excel.
+A solução utiliza **Next.js, React, TypeScript, Material UI e Google Gemini** para transformar documentos com layouts diferentes em uma estrutura dinâmica que pode ser revisada pelo usuário e exportada para Excel.
 
 ## Objetivo
 
@@ -13,9 +13,9 @@ O objetivo do Quick Filler é permitir que o usuário:
 3. aguarde a extração assistida por IA;
 4. revise e corrija os dados encontrados;
 5. salve as alterações;
-6. gere uma planilha `.xlsx` com os dados revisados.
+6. gere uma planilha `.xlsx` com os dados revisados.
 
-A solução foi pensada para não depender de um único template. Em vez de assumir campos fixos como `nome`, `cpf`, `salario` ou `horasTrabalhadas`, a aplicação trabalha com uma estrutura dinâmica de **páginas, metadados, seções, colunas e linhas**.
+A solução foi pensada para não depender de um único template. Em vez de assumir campos fixos como `nome`, `cpf`, `salario` ou `horasTrabalhadas`, a aplicação trabalha com uma estrutura dinâmica de **páginas, metadados, seções, colunas e linhas**.
 
 ---
 
@@ -26,7 +26,7 @@ A solução foi pensada para não depender de um único template. Em vez de assu
 - seleção de arquivos PDF;
 - suporte a arrastar e soltar;
 - validação do formato PDF;
-- escolha entre **Holerite** e **Cartão de ponto**;
+- escolha entre **Holerite** e **Cartão de ponto**;
 - feedback visual durante o processamento;
 - tela de carregamento enquanto a Gemini processa o documento.
 
@@ -36,7 +36,7 @@ O PDF é enviado integralmente para a API da Gemini. A IA analisa todas as pági
 
 A estrutura principal utilizada atualmente é:
 
-```text
+```
 DynamicDocument
 ├── document_type
 ├── layout_name
@@ -49,6 +49,7 @@ DynamicDocument
         ├── name
         ├── columns[]
         └── rows[]
+
 ```
 
 Essa abordagem permite trabalhar com documentos visualmente diferentes sem criar um schema específico para cada empresa.
@@ -70,7 +71,7 @@ A tela de revisão do cartão de ponto segue a mesma linguagem visual do holerit
 
 Exemplo de colunas que podem ser identificadas:
 
-```text
+```
 DIAS
 MANHÃ Entrada
 MANHÃ Saída
@@ -79,13 +80,14 @@ TARDE Saída
 EXTRA Entrada
 EXTRA Saída
 Horas Extras
+
 ```
 
 As colunas não são fixadas no código: elas são obtidas da estrutura devolvida pela IA.
 
 ### Exportação para Excel
 
-O serviço de exportação transforma os dados estruturados em um arquivo `.xlsx` utilizando a biblioteca `xlsx`.
+O serviço de exportação transforma os dados estruturados em um arquivo `.xlsx` utilizando a biblioteca `xlsx`.
 
 A planilha possui, conforme a estrutura disponível:
 
@@ -97,8 +99,9 @@ A planilha possui, conforme a estrutura disponível:
 
 O endpoint utilizado para gerar a planilha é:
 
-```text
+```
 GET /api/transcricoes/:id/planilha
+
 ```
 
 ---
@@ -107,7 +110,7 @@ GET /api/transcricoes/:id/planilha
 
 A aplicação foi organizada em camadas para separar interface, API, processamento de IA, persistência e exportação.
 
-```text
+```
 src/
 ├── app/
 │   ├── api/
@@ -118,6 +121,8 @@ src/
 │   │   │       └── planilha/
 │   │   │           └── route.ts
 │   │   └── uploads/
+│   │       └── [id]/
+│   │           └── route.ts
 │   ├── review/
 │   │   └── page.tsx
 │   └── page.tsx
@@ -137,11 +142,12 @@ src/
 │
 └── lib/
     └── transcriptions.ts
+
 ```
 
 ## Fluxo da aplicação
 
-```text
+```
 Usuário
    │
    ▼
@@ -181,6 +187,7 @@ excelService.ts
             │
             ▼
 Arquivo XLSX
+
 ```
 
 ---
@@ -194,10 +201,11 @@ Recebe o PDF e o tipo selecionado.
 Responsabilidades:
 
 - validar o arquivo;
-- salvar o PDF;
+- armazenar o PDF no Vercel Blob;
+- preparar o PDF para o processamento;
 - executar o processamento pela Gemini;
 - criar o ID da transcrição;
-- persistir os dados;
+- persistir os dados da transcrição;
 - retornar o identificador utilizado pela Review.
 
 ## `GET /api/transcricoes/:id`
@@ -210,7 +218,7 @@ Salva as alterações realizadas pelo usuário.
 
 O contrato atual utiliza:
 
-```json
+```
 {
   "value": {
     "document_type": "cartao-ponto",
@@ -220,7 +228,7 @@ O contrato atual utiliza:
 }
 ```
 
-O backend mantém `dados` apenas como compatibilidade com partes antigas da aplicação.
+O backend mantém `dados` apenas como compatibilidade com partes antigas da aplicação.
 
 ## `GET /api/transcricoes/:id/planilha`
 
@@ -232,7 +240,7 @@ Gera o arquivo XLSX utilizando os dados atualmente armazenados da transcrição.
 
 Um documento processado segue conceitualmente esta estrutura:
 
-```json
+```
 {
   "document_type": "holerite",
   "layout_name": "ficha_financeira",
@@ -272,23 +280,25 @@ Esse modelo permite representar tanto documentos simples quanto fichas financeir
 
 # Persistência
 
-Durante o desenvolvimento inicial, as transcrições eram mantidas em um `Map` em memória. Essa abordagem foi substituída por persistência local em arquivo para que a Review consiga recuperar a transcrição criada pelo upload.
+Durante o desenvolvimento inicial, as transcrições eram mantidas em um `Map` em memória. Essa abordagem foi substituída por persistência local em arquivo para que a Review consiga recuperar a transcrição criada pelo upload.
 
 O armazenamento atual é:
 
-```text
+```
 data/transcriptions.json
+
 ```
 
 A camada responsável é:
 
-```text
+```
 src/lib/transcriptions.ts
+
 ```
 
 ### Limitação
 
-Essa persistência em JSON é adequada para o desafio e para desenvolvimento local, mas **não é a solução ideal para produção**. Em um ambiente real, o próximo passo seria utilizar um banco de dados ou outro mecanismo de armazenamento persistente e compartilhado.
+Essa persistência em JSON é adequada para o desafio e para desenvolvimento local, mas **não é a solução ideal para produção**. Em um ambiente real, o próximo passo seria utilizar um banco de dados ou outro mecanismo de armazenamento persistente e compartilhado.
 
 ---
 
@@ -300,8 +310,10 @@ Essa persistência em JSON é adequada para o desafio e para desenvolvimento loc
 - **Material UI (MUI)**
 - **Google Gemini API**
 - **@google/genai**
+- **Vercel Blob (`@vercel/blob`)**
 - **xlsx**
 - **PDF no navegador por iframe**
+- **Vercel** para deploy e armazenamento
 
 ---
 
@@ -310,34 +322,36 @@ Essa persistência em JSON é adequada para o desafio e para desenvolvimento loc
 ## Pré-requisitos
 
 - Node.js instalado;
-- npm, yarn, pnpm ou bun;
-- uma chave da API Gemini.
+- pnpm recomendado (também é possível usar npm/yarn/bun);
+- uma chave da API Gemini;
+- uma conta/projeto na Vercel para o ambiente publicado;
+- um Vercel Blob privado conectado ao projeto.
 
 ## Instalação
 
 Com pnpm:
 
-```bash
+```
 pnpm install
 ```
 
 Caso a biblioteca de Excel ainda não esteja instalada:
 
-```bash
+```
 pnpm add xlsx
 ```
 
 Também é possível utilizar npm:
 
-```bash
+```
 npm install
 ```
 
 ## Variável de ambiente
 
-Crie um arquivo `.env.local` na raiz do projeto:
+Crie um arquivo `.env.local` na raiz do projeto:
 
-```env
+```
 GEMINI_API_KEY=sua_chave_aqui
 ```
 
@@ -347,27 +361,44 @@ Não publique essa chave no repositório.
 
 Com pnpm:
 
-```bash
+```
 pnpm dev
 ```
 
 Ou:
 
-```bash
+```
 npm run dev
 ```
 
 A aplicação ficará disponível em:
 
-```text
-http://localhost:3000
 ```
+http://localhost:3000
+
+```
+
+---
+
+# Deploy
+
+A aplicação está preparada para deploy na **Vercel**.
+
+Fluxo recomendado:
+
+1. publicar o código no GitHub;
+2. importar o repositório na Vercel;
+3. configurar `GEMINI_API_KEY` nas Environment Variables;
+4. conectar/criar um **Vercel Blob privado**;
+5. fazer o deploy da branch `main`.
+
+A persistência de PDFs e transcrições em produção não depende de `uploads/` nem de `data/transcriptions.json`; os arquivos são armazenados no Vercel Blob.
 
 ---
 
 # Tratamento de erros da Gemini
 
-A integração depende de um serviço externo e pode apresentar falhas transitórias, como `429` e `503`.
+A integração depende de um serviço externo e pode apresentar falhas transitórias, como `429` e `503`.
 
 A aplicação deve tratar essas situações com retry/backoff para reduzir falhas ocasionais causadas por limite de requisições ou indisponibilidade temporária do provedor.
 
@@ -381,8 +412,9 @@ Mesmo com retry, a disponibilidade da API da Gemini continua sendo uma dependên
 
 A principal decisão arquitetural foi abandonar um schema com campos fixos e utilizar:
 
-```text
+```
 pages → metadata → sections → columns → rows
+
 ```
 
 A vantagem é permitir documentos de empresas diferentes sem precisar criar um novo conjunto de campos para cada template.
@@ -398,7 +430,7 @@ Apesar de utilizarem o mesmo padrão visual e a mesma estrutura de dados, os doi
 
 ## Exportação baseada na estrutura extraída
 
-O Excel é criado a partir das `columns` e `rows` encontradas no PDF, em vez de depender de um conjunto de campos fixo.
+O Excel é criado a partir das `columns` e `rows` encontradas no PDF, em vez de depender de um conjunto de campos fixo.
 
 Isso permite que o exportador acompanhe diferentes layouts de documentos.
 
@@ -416,7 +448,7 @@ A aplicação apresenta o PDF original ao lado dos dados extraídos, mas ainda n
 
 **Status: parcialmente implementado.**
 
-O modelo dinâmico possui `document_type`, mas o fluxo atual ainda utiliza o tipo informado pelo usuário para direcionar o processamento e a tela de revisão.
+O modelo dinâmico possui `document_type`, mas o fluxo atual ainda utiliza o tipo informado pelo usuário para direcionar o processamento e a tela de revisão.
 
 Uma evolução seria permitir que a própria IA classificasse o documento antes da etapa de revisão.
 
@@ -426,9 +458,9 @@ Uma evolução seria permitir que a própria IA classificasse o documento antes 
 
 A estrutura dinâmica suporta fichas financeiras com várias páginas e competências mensais.
 
-O `payroll-01.pdf`, por exemplo, foi identificado como uma **ficha financeira**, com diversas competências e grupos de **Rendimentos, Descontos e Resultados**.
+O `payroll-01.pdf`, por exemplo, foi identificado como uma **ficha financeira**, com diversas competências e grupos de **Rendimentos, Descontos e Resultados**.
 
-A regra específica pedida pelo desafio para transformar uma ficha anual em uma entrada por mês, compartilhando o mesmo `page` e ignorando a coluna `Total`, ainda não foi implementada como uma regra especializada.
+A regra específica pedida pelo desafio para transformar uma ficha anual em uma entrada por mês, compartilhando o mesmo `page` e ignorando a coluna `Total`, ainda não foi implementada como uma regra especializada.
 
 ## Layout desconhecido
 
@@ -438,14 +470,16 @@ A arquitetura dinâmica permite representar layouts não previstos anteriormente
 
 Ainda falta uma camada explícita de confiança/validação para diferenciar:
 
-```text
+```
 "consegui extrair"
+
 ```
 
 de:
 
-```text
+```
 "não tenho confiança suficiente para interpretar este documento"
+
 ```
 
 A evolução recomendada é rejeitar ou sinalizar documentos de baixa confiança em vez de apresentar dados potencialmente incorretos como válidos.
@@ -458,7 +492,7 @@ O desafio permite explicitamente o uso de agentes e assistentes de IA. A soluç�
 
 O processo está documentado separadamente em:
 
-- [`PROCESSO.md`](./PROCESSO.md)
+- [`PROCESSO.md`](https://github.com/IBeckzzzz/Desafio-T-cnico-Quick-Filler/blob/main/PROCESSO.md)
 
 O arquivo registra:
 
@@ -471,7 +505,7 @@ O arquivo registra:
 
 As decisões técnicas e funcionalidades que ficaram de fora também estão detalhadas em:
 
-- [`SOLUCAO.md`](./SOLUCAO.md)
+- [`SOLUCAO.md`](https://github.com/IBeckzzzz/Desafio-T-cnico-Quick-Filler/blob/main/SOLUCAO.md)
 
 ---
 
@@ -479,11 +513,11 @@ As decisões técnicas e funcionalidades que ficaram de fora também estão deta
 
 A entrega final deve conter:
 
-1. **Link do repositório**;
-2. **URL da aplicação publicada**;
-3. [`SOLUCAO.md`](./SOLUCAO.md);
-4. [`PROCESSO.md`](./PROCESSO.md);
-5. planilhas geradas a partir dos PDFs disponíveis em `exemplos/`.
+1. **Link do repositório** — https://github.com/IBeckzzzz/Desafio-T-cnico-Quick-Filler;
+2. **URL da aplicação publicada** — https://desafio-t-cnico-quick-filler.vercel.app/;
+3. [`SOLUCAO.md`](https://github.com/IBeckzzzz/Desafio-T-cnico-Quick-Filler/blob/main/SOLUCAO.md);
+4. [`PROCESSO.md`](https://github.com/IBeckzzzz/Desafio-T-cnico-Quick-Filler/blob/main/PROCESSO.md);
+5. planilhas geradas a partir dos PDFs disponíveis em `exemplos/`.
 
 Os itens de número 1 e 2 devem ser preenchidos quando o repositório e a aplicação estiverem publicados.
 
@@ -491,21 +525,20 @@ Os itens de número 1 e 2 devem ser preenchidos quando o repositório e a aplica
 
 # Estrutura esperada da entrega
 
-```text
+```
 quick-filler/
 ├── src/
 ├── public/
 ├── exemplos/
-├── data/
-├── .env.local
 ├── README.md
 ├── SOLUCAO.md
 ├── PROCESSO.md
 ├── package.json
 └── ...
+
 ```
 
-> **Importante:** `.env.local` contém a chave da Gemini e não deve ser versionado.
+> **Importante:** `.env.local` contém a chave da Gemini e não deve ser versionado.
 
 ---
 
@@ -513,14 +546,18 @@ quick-filler/
 
 A aplicação possui o fluxo principal implementado:
 
-```text
+```
 PDF
  ↓
 Upload
  ↓
+Vercel Blob
+ ↓
 Gemini
  ↓
 Extração dinâmica
+ ↓
+Persistência da transcrição
  ↓
 Review de holerite / ponto
  ↓
@@ -530,6 +567,8 @@ Salvar
  ↓
 Exportação XLSX
 ```
+
+A aplicação está preparada para execução em produção na Vercel, sem depender do filesystem local para persistência.
 
 Os bônus foram documentados individualmente neste README para deixar explícito o que está implementado, parcialmente implementado e o que ainda seria necessário desenvolver.
 
