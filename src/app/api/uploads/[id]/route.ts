@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
 import { get } from "@vercel/blob";
 
+import { getTranscription } from "@/lib/transcriptions";
+
 interface RouteParams {
   params: Promise<{
-    file: string;
+    id: string;
   }>;
 }
 
@@ -12,42 +14,51 @@ export async function GET(
   { params }: RouteParams
 ) {
   try {
-    const { file } =
-      await params;
+    const { id } = await params;
 
-    if (!file) {
+    const transcription =
+      await getTranscription(id);
+
+    if (!transcription) {
       return NextResponse.json(
         {
           error:
-            "Arquivo não informado.",
+            "Transcrição não encontrada.",
         },
         {
-          status: 400,
+          status: 404,
         }
       );
     }
 
-    /*
-     * O PDF agora está armazenado no
-     * Vercel Blob em:
-     *
-     * uploads/nome-do-arquivo.pdf
-     */
-
-    const blobPath =
-      `uploads/${file}`;
+    if (!transcription.pdfPath) {
+      return NextResponse.json(
+        {
+          error:
+            "PDF não associado à transcrição.",
+        },
+        {
+          status: 404,
+        }
+      );
+    }
 
     console.log(
       "================================"
     );
 
     console.log(
-      "BUSCANDO PDF NO VERCEL BLOB"
+      "BUSCANDO PDF"
     );
 
     console.log(
-      "Path:",
-      blobPath
+      "ID:",
+      id
+    );
+
+    console.log(
+      "PDF Path:",
+      transcription.pdfPath
     );
 
     console.log(
@@ -56,7 +67,7 @@ export async function GET(
 
     const blob =
       await get(
-        blobPath,
+        transcription.pdfPath,
         {
           access: "private",
           useCache: false,
@@ -67,7 +78,7 @@ export async function GET(
       return NextResponse.json(
         {
           error:
-            "Arquivo não encontrado.",
+            "Arquivo PDF não encontrado no Blob.",
         },
         {
           status: 404,
@@ -75,22 +86,16 @@ export async function GET(
       );
     }
 
-    /*
-     * O Blob privado fornece o conteúdo
-     * através de stream.
-     */
-
     return new Response(
       blob.stream,
       {
         status: 200,
-
         headers: {
           "Content-Type":
             "application/pdf",
 
           "Content-Disposition":
-            `inline; filename="${file}"`,
+            `inline; filename="${transcription.file}"`,
 
           "Cache-Control":
             "private, no-store",
@@ -99,7 +104,7 @@ export async function GET(
     );
   } catch (error) {
     console.error(
-      "Erro ao buscar PDF no Vercel Blob:",
+      "Erro ao buscar PDF:",
       error
     );
 
@@ -108,7 +113,7 @@ export async function GET(
         error:
           error instanceof Error
             ? error.message
-            : "Erro ao buscar o arquivo.",
+            : "Erro ao buscar o PDF.",
       },
       {
         status: 500,

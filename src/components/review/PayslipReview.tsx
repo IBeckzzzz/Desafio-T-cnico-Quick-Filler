@@ -77,11 +77,9 @@ export default function PayslipReview({
   const [successMessage, setSuccessMessage] =
     useState("");
 
-  const pdfUrl = file
-    ? `/api/uploads/${encodeURIComponent(
-        file
-      )}`
-    : "";
+  const pdfUrl = id
+  ? `/api/uploads/${encodeURIComponent(id)}`
+  : "";
 
   /* =========================================================
      METADATA
